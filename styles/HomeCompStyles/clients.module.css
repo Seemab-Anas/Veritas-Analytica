@@ -1,0 +1,113 @@
+/* styles/clients.module.css */
+
+/* ------ our clients -----*/
+.ourClients {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .ourClientLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 2vw;
+    margin-left: 5vw;
+  }
+  
+  .ourClientLeft h1 {
+    font-size: 5vw;
+    font-family: var(--font-archivo);
+    line-height: 4.5vw;
+  }
+  
+  .ourClientLeft p {
+    font-size: 1.2vw;
+    color: #c4c4c4;
+    width: 70%;
+  }
+  
+  .ourClientRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .clientColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.067);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+
+  @media screen and (max-width: 960px){
+    .ourClients {
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 130px;
+      padding: 2vw;
+    }
+    
+    .ourClientLeft {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
+      padding: 2vw;
+      margin-left: 0vw;
+    }
+    
+    .ourClientLeft h1 {
+      font-size: 7vw;
+      line-height: 6.6vw;
+    }
+    
+    .ourClientLeft p {
+      font-size: 2vw;
+      width: 70%;
+    }
+    
+    .ourClientRight {
+      width: 100%;
+      height: auto;
+    }
+    .box {
+      width: 16vw;
+      height: 16vw;
+      border-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+  }

@@ -1,0 +1,146 @@
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 6vw 4vw;
+  }
+  
+  .footerUp {
+    margin-top: 8vw;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .footerUp h2 {
+    font-family: var(--font-archivo);
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+  
+  .footerUp h3 {
+    font-weight: 400;
+    color: rgb(142, 142, 142);
+    cursor: pointer;
+  }
+  
+  .footerUp h3 span {
+    margin-right: 10px;
+  }
+  .footerUp h3 img {
+    filter: invert(1);
+    width: 1vw;
+  }
+  
+  .footCol1 img {
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  .footerUp div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .footerUp div h2 {
+    margin-bottom: 30px;
+  }
+  
+  .footerDown {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .footerDown h4 {
+    font-weight: 200;
+    color: rgb(142, 142, 142);
+  }
+  
+  .footerDown h4 i {
+    color: rgb(142, 142, 142);
+    margin-right: 10px;
+  }
+  
+
+  @media screen and (max-width: 960px){
+    .footer {
+      width: 100%;
+      height: 100vh;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 6vw 4vw;
+    }
+    
+    .footerUp {
+      margin-top: 10vh;
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 5vw;
+    }
+    
+    .footerUp h2 {
+      font-family: var(--font-archivo);
+      font-size: 2.6vw;
+      font-weight: 600;
+    }
+    
+    .footerUp h3 {
+      font-size: 2.2vw;
+      font-weight: 400;
+      color: rgb(142, 142, 142);
+      cursor: pointer;
+    }
+    
+    .footerUp h3 span {
+      margin-right: 10px;
+    }
+    .footerUp h3 img {
+      filter: invert(1);
+      width: 2vw;
+    }
+    .footCol1{
+      width: 100%;
+    }
+    .footCol2{
+      width: 40vw;
+    }
+    .footCol3{
+      width: 40vw;
+    }
+    .footCol4{
+      width: 40vw;
+    }
+    .footCol5{
+      width: 40vw;
+    }
+    
+    .footCol1 img {
+      width: 10vw;
+      height: 10vw;
+    }
+    
+    .footerDown h4 {
+      font-size: 2vw;
+    }
+    
+    .footerDown h4 i {
+      font-size: 2vw;
+    }
+  }

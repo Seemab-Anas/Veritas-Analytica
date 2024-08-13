@@ -1,0 +1,48 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+
+    padding-top: 25vh;
+}
+.hero div{
+    width: 100%;
+    padding-left: 5vw;
+    padding-bottom: 6vw;
+    border-bottom: 3px solid rgba(175, 175, 175, 0.466);
+}
+.head1{
+    font-size: 2vw;
+    line-height: 2vw;
+    font-weight: 300;
+    color: rgb(175, 175, 175);
+}
+.head2{
+    font-family: var(--font-archivo);
+    font-size: 5vw;
+}
+.hero img{
+    margin: 0px auto;
+    width: 90vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media screen and (max-width: 960px){
+    .hero{
+        width: 100%;
+        height: 100vh;
+    }
+    .head1{
+        font-size: 2.2vw;
+    }
+    .head2{
+        font-size: 6vw;
+    }
+}

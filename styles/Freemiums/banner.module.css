@@ -1,0 +1,78 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 5vw;
+}
+.hero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(80%);
+    z-index: 0;
+}
+.grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 0;
+}
+.hero h1{
+    position: relative;
+    font-size: 5vw;
+    line-height: 4.5vw;
+    width: 60%;
+    font-weight: 600;
+    font-family: var(--font-archivo);
+}
+.hero p{
+    position: relative;
+    font-size: 2vw;
+    margin-top: 30px;
+    color: rgb(203, 203, 203);
+}
+.hero button {
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+  .hero button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+  .hero button:hover{
+    color: #000;
+  }
+  .hero button:hover::before{
+    top: 0;
+    border-radius: 0;
+  }

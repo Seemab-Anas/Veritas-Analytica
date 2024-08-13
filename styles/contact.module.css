@@ -1,0 +1,136 @@
+/* --------------------- CONTACT ---------------------------------- */
+.contact {
+    width: 96%;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5%;
+    margin: 0 auto;
+  }
+  
+  .contactBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    border-radius: 30px;
+    filter: brightness(40%);
+  }
+  
+  .contactus {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 1.3vw;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+  .contactus::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+  .contactus:hover{
+    color: #000;
+  }
+  .contactus:hover::before{
+    top: 0;
+    border-radius: 0;
+  }
+
+
+  .contactLeft {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .dp {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 20px;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .contactLeft h1 {
+    font-family: var(--font-archivo);
+    font-size: 6.5vw;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .contactLeft p {
+    font-weight: 400;
+    font-size: 1.8vw;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .contactRight {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .contactRight p {
+    text-align: end;
+    font-size: 1.1vw;
+  }
+  
+
+
+
+
+  @media screen and (max-width: 960px){
+    .contact {
+      width: 96%;
+      height: 40vh;
+    }
+    
+    .contactus {
+      font-size: 1.5vw;
+    }
+    .dp {
+      width: 6.6vw;
+      height: 6.6vw;
+    }
+    
+    .contactLeft h1 {
+      font-size: 7vw;
+    }
+    
+    .contactLeft p {
+      font-size: 2vw;
+    }
+    .contactRight p {
+      text-align: end;
+      font-size: 1.6vw;
+    }
+  }

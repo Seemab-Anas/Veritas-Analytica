@@ -1,0 +1,158 @@
+.cont{
+    width: 100%;
+    min-height: 60vh;
+    padding: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.cont>h1{
+  font-size: 4vw;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+}
+.case_cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.casestudy-hero {
+    overflow: hidden;
+    position: relative;
+    height: 50vh;
+    width: 45vw;
+    border-radius: 20px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 1px solid #fff;
+}
+.case-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(60%);
+}
+.grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.bluring-case {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 1vw;
+    border-radius: 20px;
+}
+.casestudy-hero .bluring-case h1 {
+    font-family: var(--font-archivo);
+    font-size: 4vw;
+    font-weight: 500;
+}
+.casestudy-hero .bluring-case h2 {
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+
+.casestudy-hero .bluring-case button {
+    position: relative;
+    z-index: 40;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+  .arrow{
+    width: 1.3vw;
+    filter: invert(1);
+    transition: all 0.5s ease;
+  }
+  .casestudy-hero .bluring-case button:hover .arrow{
+    filter: invert(0);
+  }
+
+  .casestudy-hero .bluring-case button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+  .casestudy-hero .bluring-case button:hover{
+    color: #000;
+  }
+  .casestudy-hero .bluring-case button:hover::before{
+    top: 0;
+    border-radius: 0;
+  }
+
+  @media screen and (max-width: 960px){
+    .cont{
+      min-height: 50vh;
+  }
+  .cont>h1{
+    font-size: 5vw;
+  }
+  .casestudy-hero {
+      height: 30vh;
+      width: 45vw;
+  }
+  .casestudy-hero .bluring-case{
+    gap: 10px;
+  }
+  .casestudy-hero .bluring-case h1 {
+      font-size: 4.4vw;
+  }
+  .casestudy-hero .bluring-case h2 {
+      font-size: 2.1vw;
+  }
+  
+  
+  .casestudy-hero .bluring-case button {
+      
+    padding: 10px 10px;
+      font-size: 1.5vw;
+    }
+    .arrow{
+      width: 1.5vw;
+    }
+  
+  }

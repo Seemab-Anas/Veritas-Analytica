@@ -1,0 +1,144 @@
+.links {
+  color: #fff; 
+  text-decoration: none; 
+}
+.links:hover, .links:visited, .links:active {
+  color: #fff; 
+}
+
+.services {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5vw;
+    gap: 50px;
+    
+  }
+  
+  .services > h1 {
+    color: #fff;
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: var(--font-archivo);
+    text-align: center;
+  }
+  
+  .serviceCont {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .serviceCard {
+    position: relative;
+    height: 70vh;
+    width: 27vw;
+    border-radius: 20px;
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+    background-color: #121212;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 2vw;
+  }
+  
+  .serviceCard h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-archivo);
+    font-size: 2.2vw;
+    font-weight: 100;
+  }
+  .serviceCard h1 img{
+    width: 2.2vw;
+    filter: invert(1);
+  }
+  
+  .serviceCard p {
+    font-size: 1.4vw;
+    font-weight: 100;
+    font-family: 'DM Sans', sans-serif;
+    color: #c7c7c7;
+  }
+  
+  .imageWrapper {
+    position: absolute;
+    bottom: -15%;
+    right: -30%;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+  }
+  
+  .serviceCard:hover .imageWrapper {
+    right: 0;
+  }
+  
+  .serviceImage {
+    object-fit: contain;
+  }
+  
+
+  @media screen and (max-width: 960px){
+        
+    .services {
+        width: 100%;
+        min-height: 100vh;
+        padding: 2vw;
+        gap: 50px;
+        margin-bottom: 50px;
+      }
+      
+      .services > h1 {
+        color: #fff;
+        font-size: 7vw;
+        font-weight: 800;
+      }
+      
+      .serviceCont {
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+      
+      .serviceCard {
+        position: relative;
+        height: 35vh;
+        width: 40vw;
+        border-radius: 10px;
+      }
+      
+      .serviceCard h1 {
+        font-size: 4vw;
+      }
+      .serviceCard h1 img{
+        width: 3vw;
+      }
+      
+      .serviceCard p {
+        font-size: 2vw;
+      }
+      
+      .imageWrapper {
+        position: absolute;
+        bottom: -10%;
+        right: 0%;
+      }
+  }

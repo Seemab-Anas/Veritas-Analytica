@@ -1,0 +1,97 @@
+/* hero.module.css */
+
+.page1 {
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 18px;
+    padding: 5vw;
+  }
+  .head1 {
+    width: 50%;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 7vw;
+    line-height: 6vw;
+    font-family: var(--font-archivo);
+  }
+  
+  .headAbout {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .headAbout p {
+    width: 100%;
+    color: #999B9F;
+    font-size: 1.4vw;
+    margin-top: 16px;
+  }
+  
+.headAbout button {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-size: 1.3vw;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.headAbout button::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  left: 0;
+  transition: all 0.5s ease;
+}
+.headAbout button:hover{
+  color: #000;
+}
+.headAbout button:hover::before{
+  top: 0;
+  border-radius: 0;
+}
+
+
+@media screen and (max-width: 960px){
+    .head1 {
+      width: 80%;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 15vw;
+      line-height: 13vw;
+      font-family: var(--font-archivo);
+    }
+    
+    .headAbout {
+      width: 50%;
+    }
+    
+    .headAbout p {
+      font-size: 2.8vw;
+    }
+    
+  .headAbout button {
+    padding: 10px 50px;
+    font-size: 3vw;
+  }
+}

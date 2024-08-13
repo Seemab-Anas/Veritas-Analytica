@@ -1,0 +1,69 @@
+.section{
+    min-height: 50vh;
+    width: 100%;
+    padding: 4vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about{
+    width: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.about h1{
+    width: 50%;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.about p{
+    width: 40%;
+    font-size: 1.4vw;
+    color: rgb(195, 195, 195);
+}
+
+.benefits{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.benefits h1{
+    font-size: 3vw;
+    font-weight: 400;
+}
+.contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.contain div{
+    width: 100%;
+    padding: 2vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #1616167e;
+}
+.contain div h2{
+    font-size: 2vw;
+    font-weight: 400;
+    color: #dbdbdb;
+    width: 40%;
+}
+.contain div p{
+    font-size: 1.2vw;
+    color: #dbdbdb;
+    width: 50%;
+}

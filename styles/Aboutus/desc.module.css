@@ -1,0 +1,93 @@
+/* styles/Aboutus/desc.module.css */
+.aboutContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    min-height: 50vh;
+    margin: 50px 0px;
+  }
+  
+  .aboutCard1 {
+    width: 82%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgba(255, 255, 255, 0.078);
+    border-radius: 30px;
+    padding: 3vw;
+    transition: all 0.7s ease;
+  }
+  
+  .aboutCard1 h1 {
+    font-family: var(--font-archivo);
+    font-size: 4vw;
+    position: relative;
+    font-weight: 100;
+  }
+  
+  .aboutCard1 p {
+    width: 80%;
+    font-size: 1.3vw;
+    color: #cbcbcb;
+  }
+  
+  .aboutCard2 {
+    height: 50vh;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.078);
+    border-radius: 30px;
+    padding: 3vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    transition: all 0.7s ease;
+  }
+  
+  .aboutCard2 h1 {
+    font-family: var(--font-archivo);
+    font-size: 4vw;
+    position: relative;
+    font-weight: 100;
+  }
+  
+  .aboutCard2 p {
+    width: 100%;
+    font-size: 1.2vw;
+    color: #cbcbcb;
+  }
+  
+
+  @media screen and (max-width: 960px){
+.aboutCard1 {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.aboutCard1 h1 {
+  font-size: 4.4vw;
+}
+
+.aboutCard1 p {
+  font-size: 1.6vw;
+}
+
+.aboutCard2 {
+  height: 30vh;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.aboutCard2 h1 {
+  font-size: 4.4vw;
+}
+
+.aboutCard2 p {
+  font-size: 1.6vw;
+}
+  }

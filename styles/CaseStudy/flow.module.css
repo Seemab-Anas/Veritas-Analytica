@@ -1,0 +1,20 @@
+.cont{
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.cont h1{
+    font-family: var(--font-archivo);
+    font-size: 4vw;
+    font-weight: 500;
+}
+.cont img{
+    width: 70%;
+    height: auto;
+}
