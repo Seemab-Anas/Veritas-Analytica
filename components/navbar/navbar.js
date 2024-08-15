@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
         <Link href="/AboutUs">About Us</Link>
       </div>
-      <Link href="/Contact" className={styles.navRight}>
+      <Link href="/ContactUs" className={styles.navRight}>
         <div>
           <button>Get in touch</button>
           <Image
@@ -174,7 +174,7 @@ const Navbar = () => {
           </ul>
         </details>
         <Link className={styles.outerlink} href="/AboutUs">About Us</Link>
-        <Link className={styles.outerlink} href="/Contact">Contact Us</Link>
+        <Link className={styles.outerlink} href="/ContactUs">Contact Us</Link>
         <img className={styles.close} src="/close.png"/>
       </div>
     </nav>
