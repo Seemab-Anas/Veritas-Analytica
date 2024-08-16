@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+VERITAS ANALYTICA WEBSITE
 
-## Getting Started
+What You Need
+Before you can run this project, you'll need to install a few things:
 
-First, run the development server:
+1. Node.js
+Why? Node.js is required to run the Next.js development server and manage dependencies.
+How to Install:
+Go to the Node.js official website.
+Download the recommended version (LTS) for your operating system.
+Follow the installation instructions.
+2. Visual Studio Code (VS Code)
+Why? VS Code is a code editor that you can use to view and manage the project files.
+How to Install:
+Go to the Visual Studio Code website.
+Download and install the version for your operating system.
 
-```bash
+Getting Started
+1. Download the Project from GitHub
+Steps:
+Go to the GitHub repository https://github.com/Seemab-Anas/Veritas-Analytica
+Click on the "Code" button and select "Download ZIP" to download the project files.
+Extract the downloaded ZIP file to a folder on your computer.
+2. Open the Project in Visual Studio Code
+Steps:
+Open Visual Studio Code.
+Go to File > Open Folder....
+Navigate to the folder where you extracted the project files and select it.
+
+Running the Project Locally
+To run the project on your local server, follow these steps:
+
+1. Open the Terminal in VS Code
+Steps:
+In Visual Studio Code, go to View > Terminal or press Ctrl+` to open the terminal.
+2. Install Project Dependencies
+Command:
+bash
+Copy code
+npm install
+What This Does: This command installs all the necessary packages the project needs to run.
+3. Start the Development Server
+Command:
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+What This Does: This starts the development server, and the project will be available at http://localhost:3000.
+View the Project in Your Browser
+Steps:
+Open your web browser.
+Go to http://localhost:3000 to see the project running.
