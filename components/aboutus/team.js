@@ -61,11 +61,6 @@ const teamMembers = [
     name: 'Ehsan Malik',
     position: 'Technical Team Lead',
   },
-  {
-    image: '/aboutus/22.png',
-    name: 'Talha',
-    position: 'Technical Team',
-  },
 ];
 
 export default Team;

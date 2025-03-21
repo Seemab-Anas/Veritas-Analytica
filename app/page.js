@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Contact from "@/components/Contact/contact";
 import Faq from "@/components/Faq/Faq";
 import Clients from "@/components/Home/Clients";
@@ -8,7 +8,7 @@ import Review from "@/components/Home/Review";
 import SuccessStories from "@/components/Home/Success";
 import SuccessCTA from "@/components/Home/Successcta";
 import Whyus from "@/components/Home/whyus";
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 import styles from "@/styles/homepage.module.css"
 import { useEffect } from "react";
 

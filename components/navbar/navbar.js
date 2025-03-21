@@ -84,13 +84,13 @@ const Navbar = () => {
           <Link href="#">Freemiums</Link>
           <ul className={styles.submenu}>
             <li>
-              <Link href="/Freemiums/Freemium1">Freemium 1</Link>
+              <Link href="/Freemiums/Freemium1">RFM Analyzer</Link>
             </li>
             <li>
-              <Link href="/Freemiums/Freemium2">Freemium 2</Link>
+              <Link href="/Freemiums/Freemium2">Background Removal</Link>
             </li>
             <li>
-              <Link href="/Freemiums/Freemium3">Freemium 3</Link>
+              <Link href="/Freemiums/Freemium3">Report Realm</Link>
             </li>
           </ul>
         </div>
